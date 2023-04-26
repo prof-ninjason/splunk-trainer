@@ -1,0 +1,10 @@
+# notes
+
+docker build . -t splunk-trainer
+
+docker run -d -p 8000:8000 --name splunk-trainer splunk-trainer:latest
+
+docker exec -it splunk-trainer 'sudo /opt/splunk/bin/splunk status|restart'
+
+docker exec splunk-trainer sudo /opt/splunk/bin/splunk status|restart
+
