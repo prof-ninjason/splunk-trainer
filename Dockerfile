@@ -1,5 +1,5 @@
 FROM splunk/splunk:latest
-MAINTAINER vince.sesto@gmail.com
+MAINTAINER jrochon@waubonsee.edu
 
 EXPOSE 8000
 
